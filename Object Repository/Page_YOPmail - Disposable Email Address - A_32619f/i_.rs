@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_</name>
+   <tag></tag>
+   <elementGuidId>4899fa43-1935-43fe-b0aa-8e7dc37bc2ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='refreshbut']/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.material-icons-outlined.f36</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>c0cd138d-8e30-4662-bddf-0b1b4c06fec7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>material-icons-outlined f36</value>
+      <webElementGuid>27493dec-b55f-4209-9db4-94366105baf2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>cd6c9247-290b-4275-ac49-9190c39e977d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;refreshbut&quot;)/button[@class=&quot;md&quot;]/i[@class=&quot;material-icons-outlined f36&quot;]</value>
+      <webElementGuid>51e6d216-cf82-4d4e-9120-de06a6cc40b9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='refreshbut']/button/i</value>
+      <webElementGuid>938e7f9f-976e-47f7-894f-0669462e858d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[1]/following::i[1]</value>
+      <webElementGuid>36eac2b0-9007-42e3-af6e-c269a92c0231</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type the Email name of your choice'])[1]/following::i[2]</value>
+      <webElementGuid>3fd819d6-ad35-4c18-9de1-6ac1eb604928</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[2]/preceding::i[1]</value>
+      <webElementGuid>a0995553-616f-4a99-b5d9-d5ef34f1620d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Random Email generator'])[1]/preceding::i[2]</value>
+      <webElementGuid>f6561f1c-360e-45f6-ba0e-40087b14b835</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='']/parent::*</value>
+      <webElementGuid>0855723f-2c63-4b90-9c6f-d445b7bb4e42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/i</value>
+      <webElementGuid>b349f2aa-4030-4670-9c76-2c787f60c7c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//i[(text() = '' or . = '')]</value>
+      <webElementGuid>6e1746ca-99e4-4c05-9f10-d6eb32fcb50a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

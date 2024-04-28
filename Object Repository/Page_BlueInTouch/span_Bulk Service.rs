@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Bulk Service</name>
+   <tag></tag>
+   <elementGuidId>614d0531-c029-49f6-99b7-ca142a79a063</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='showSideMenu']/nav/ul[2]/li/div/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7ad04aba-c18e-41cf-a6d8-904e3cac25cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>side-navigation-panel-select-option-text</value>
+      <webElementGuid>431a4b68-998f-4eb8-850f-c5847b329e88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bulk Service</value>
+      <webElementGuid>d4d52d40-6b6d-483d-8c18-e79f6376d037</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;showSideMenu&quot;)/nav[@class=&quot;side-navigation-panel&quot;]/ul[@class=&quot;side-navigation-panel-select&quot;]/li[@class=&quot;side-navigation-panel-select-wrap&quot;]/div[@class=&quot;side-navigation-panel-select-option&quot;]/span[@class=&quot;side-navigation-panel-select-option-wrap&quot;]/span[@class=&quot;side-navigation-panel-select-option-text&quot;]</value>
+      <webElementGuid>ddbed1ad-c0c2-450a-940b-6cbfef3df930</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='showSideMenu']/nav/ul[2]/li/div/span/span</value>
+      <webElementGuid>cfa02505-19b3-43ab-8dc7-6c0518fcbccb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::span[2]</value>
+      <webElementGuid>26430ef7-c2b6-45b7-b31e-d107bd34bbc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='******'])[1]/following::span[4]</value>
+      <webElementGuid>45d002ee-49a3-4fb2-b295-3c824ea17b0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Services'])[1]/preceding::span[1]</value>
+      <webElementGuid>72c77e9a-8e10-442c-9030-306aaa99a61c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contacts'])[1]/preceding::span[3]</value>
+      <webElementGuid>0b2b7674-f19b-4d9b-b61b-712d2176e633</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Bulk Service']/parent::*</value>
+      <webElementGuid>e9a895a6-7a4d-4a43-b744-22c97432a73c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul[2]/li/div/span/span</value>
+      <webElementGuid>9492ff27-ddb2-447e-bd88-81e62b3f14ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Bulk Service' or . = 'Bulk Service')]</value>
+      <webElementGuid>08f37b34-ae18-40bc-81a5-fa6cbc6c9cec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Upload Contacts</name>
+   <tag></tag>
+   <elementGuidId>bb6774ce-8da6-4abc-bf89-7ba725b4fd8d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='uncontrolled-tab-example-tabpane-sms']/div/div/div/form/div[2]/div/div/div/label/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d688171d-a71c-49a7-aaa2-326db894a5ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>link</value>
+      <webElementGuid>4da28b72-58a6-4894-b313-a0ce691b3441</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Upload Contacts</value>
+      <webElementGuid>b8907f5f-ab93-4792-85b8-a8a02280bf4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;uncontrolled-tab-example-tabpane-sms&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-9 col-md-8&quot;]/div[@class=&quot;campaign-wrapper&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;upload-wrapper col&quot;]/div[1]/div[@class=&quot;upload-wrapper&quot;]/label[1]/span[@class=&quot;link&quot;]</value>
+      <webElementGuid>8080acb6-85a4-46ad-a689-7bf49b647d33</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='uncontrolled-tab-example-tabpane-sms']/div/div/div/form/div[2]/div/div/div/label/span</value>
+      <webElementGuid>eddff5e4-df52-4501-a8de-e5988ef0af2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create One'])[1]/following::span[1]</value>
+      <webElementGuid>1adf339b-3d11-43a6-9765-1d9a7414e723</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='sample file'])[1]/preceding::span[1]</value>
+      <webElementGuid>551a9032-6b08-467b-b651-d01b6b918dd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Upload Contacts']/parent::*</value>
+      <webElementGuid>b0f9fee8-fd91-4872-be77-60377f8a0754</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/label/span</value>
+      <webElementGuid>4724ed00-e211-4904-8f4d-9e3756236401</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Upload Contacts' or . = 'Upload Contacts')]</value>
+      <webElementGuid>25824ef3-38e8-49aa-b505-23cf51166abb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

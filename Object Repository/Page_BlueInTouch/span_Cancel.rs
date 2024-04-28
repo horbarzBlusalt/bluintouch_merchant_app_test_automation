@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Cancel</name>
+   <tag></tag>
+   <elementGuidId>a38dcf69-48a1-4382-9fc8-26eba1ff9143</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Fund'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c00a1d43-09af-454b-8d95-21b525896a61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cancel</value>
+      <webElementGuid>331d41c0-11c6-494a-9747-cae871f5b807</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;fade nopadding modal show&quot;]/div[@class=&quot;modal-dialog modal-md modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;fundwallet-wrapper&quot;]/div[@class=&quot;right&quot;]/form[1]/div[3]/span[1]</value>
+      <webElementGuid>2b68061d-396d-4a35-9bfc-a3704c7351bf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fund'])[1]/following::span[1]</value>
+      <webElementGuid>56cc8cf6-c7b6-467a-8b57-b37979475a9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/span</value>
+      <webElementGuid>2f718626-88d3-4c30-afa6-ffaddf557f83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Cancel' or . = 'Cancel')]</value>
+      <webElementGuid>9dfb6615-4968-49eb-8678-9042eb75dd30</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

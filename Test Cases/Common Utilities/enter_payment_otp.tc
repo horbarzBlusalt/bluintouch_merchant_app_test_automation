@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>enter_payment_otp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c45256d6-6e1b-480b-a1c3-f5c8449b87a8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ae3b82fc-e39b-4b87-8857-cfa72a841502</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'123456'</defaultValue>
+      <description></description>
+      <id>ae3b82fc-e39b-4b87-8857-cfa72a841502</id>
+      <masked>false</masked>
+      <name>otpValue</name>
+   </variable>
+</TestCaseEntity>

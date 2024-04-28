@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Fund Wallet</name>
+   <tag></tag>
+   <elementGuidId>896abb39-d0fc-4198-b5e4-888037f480bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[7]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e6133f90-efb7-4d46-afb4-fa69b9483648</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ec03e5a7-46be-4564-9d33-89c4cdbfffac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>primary btn btn-primary btn-lg</value>
+      <webElementGuid>013a1567-d9ba-4d89-877f-fad1e7e601d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Fund Wallet</value>
+      <webElementGuid>206df1ae-a3e3-4eb5-8645-18dff41ab23b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;fade modal show&quot;]/div[@class=&quot;modal-dialog modal-md modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;sc-ikkxIA bmfCoU&quot;]/div[3]/div[@class=&quot;button-wrapper my-2&quot;]/div[1]/button[@class=&quot;primary btn btn-primary btn-lg&quot;]</value>
+      <webElementGuid>fed35340-1762-41c5-a5b9-20407197d8b6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[7]</value>
+      <webElementGuid>9dde083c-4ba9-4659-ac51-12b3536445be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₦0.00'])[1]/following::button[1]</value>
+      <webElementGuid>1ee74b7a-4e31-40d8-baa7-6f980f429232</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay with Wallet'])[1]/following::button[1]</value>
+      <webElementGuid>a0336a9d-5270-458b-8cb0-13b40ef84b90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proceed'])[1]/preceding::button[1]</value>
+      <webElementGuid>b7258e86-4ace-46b9-9943-a0c338e38cc3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[2]/div/div[3]/div/div/button</value>
+      <webElementGuid>e09ae324-88ac-4f56-a471-e9aaba9fdc0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Fund Wallet' or . = 'Fund Wallet')]</value>
+      <webElementGuid>d31c03c7-b660-4936-aa93-30f14245dd24</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

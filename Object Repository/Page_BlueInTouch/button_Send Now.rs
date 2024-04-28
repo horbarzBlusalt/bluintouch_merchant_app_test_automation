@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Send Now</name>
+   <tag></tag>
+   <elementGuidId>bc81234b-86b0-443e-a21d-cad6bf09528b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.primary.btn.btn-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6182b2ed-c7ee-4a54-afb4-9e33720f7613</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>50ca190c-45f0-4075-937d-728ca7717227</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>primary btn btn-primary</value>
+      <webElementGuid>c0a57845-1a90-464a-a940-ff80fa22c04d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Send Now</value>
+      <webElementGuid>3ade3ae9-a5a1-4bd9-9d6e-def5765e90e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;uncontrolled-tab-example-tabpane-sms&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-9 col-md-8&quot;]/div[@class=&quot;campaign-wrapper&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;btn-container col&quot;]/div[@class=&quot;button-wrapper my-2&quot;]/div[1]/button[@class=&quot;primary btn btn-primary&quot;]</value>
+      <webElementGuid>6b95322d-6e21-4713-8c0d-901a88f90225</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>07fd552b-789f-405d-876a-a2520e9c104d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='uncontrolled-tab-example-tabpane-sms']/div/div/div/form/div[5]/div/div/div/button</value>
+      <webElementGuid>8aed7ac3-41a7-4546-90df-6444966ea0e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Schedule for Later'])[1]/preceding::button[1]</value>
+      <webElementGuid>f32929b8-66b4-47e7-b5f2-f72a4951ef20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Price'])[1]/preceding::button[2]</value>
+      <webElementGuid>391eccb9-d046-4f3c-8c61-9df27815cc5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Send Now']/parent::*</value>
+      <webElementGuid>21deddc5-84e6-4448-b202-90fed41c537a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>f340e974-f9f4-4301-9319-1d76e866c5b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Send Now' or . = 'Send Now')]</value>
+      <webElementGuid>b38158bd-7011-4c49-aee8-1c6b408de35c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

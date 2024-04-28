@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Enter messageGood morning people, this _9bc2b0</name>
+   <tag></tag>
+   <elementGuidId>941ec502-ca62-42b9-b461-2f618adada8b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='uncontrolled-tab-example-tabpane-sms']/div/div/div/form/div[4]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3b4266ca-8766-48c3-9404-a952318b270c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col</value>
+      <webElementGuid>955c20d9-cc16-4cb7-865a-231dd8c16c48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Enter message *Good morning people, this is an automated sms featureEnter message *</value>
+      <webElementGuid>5768fc3e-8ce4-4a82-b9b4-1ed5924874ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;uncontrolled-tab-example-tabpane-sms&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-9 col-md-8&quot;]/div[@class=&quot;campaign-wrapper&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]</value>
+      <webElementGuid>78f3e824-b0bf-4a81-af19-16ab346d833a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='uncontrolled-tab-example-tabpane-sms']/div/div/div/form/div[4]/div</value>
+      <webElementGuid>203571a1-4c4a-497e-8c6e-739dbda0ef1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add from Contact'])[1]/following::div[4]</value>
+      <webElementGuid>25b5c60c-d1b0-416f-9f1b-d005905ff21b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='sample file'])[1]/following::div[7]</value>
+      <webElementGuid>106e703d-f842-4e31-a078-9931927520b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[4]/div</value>
+      <webElementGuid>74bbaf2a-68cb-4aeb-8bd1-d1807df50da7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Enter message *Good morning people, this is an automated sms featureEnter message *' or . = 'Enter message *Good morning people, this is an automated sms featureEnter message *')]</value>
+      <webElementGuid>5f57b674-3d65-49f3-8179-50f957fe4ceb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

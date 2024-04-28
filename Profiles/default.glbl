@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dev.bluintouch.com/auth/signin'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging.bluintouch.com'</initValue>
+      <name>stagingUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>false</initValue>
+      <name>two_factor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'johnsolo12@yopmail.com'</initValue>
+      <name>email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'richbayo@yopmail.com'</initValue>
+      <name>stagingEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>false</initValue>
+      <name>testLoginOnly</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>true</initValue>
+      <name>stagingEnv</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
