@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_50MB 2Go Weekly Plan_1</name>
+   <tag></tag>
+   <elementGuidId>9f582dee-5cbe-4985-a37d-54ee9aca41ab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='demo-simple-select-outlined'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-3 > div.input-wrapper > div.MuiFormControl-root > div.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl > #demo-simple-select-outlined</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>21417501-ac9d-4cf9-a143-7483be48e619</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input</value>
+      <webElementGuid>0cadc562-31c9-4d84-bc80-c0ab59bcff2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>9fa8718d-f584-4327-9b0d-6396e8063989</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2b65144a-1336-463c-80a3-1183eaeb5e47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>listbox</value>
+      <webElementGuid>e36c3494-e050-4c9d-8644-5c431086d93d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>demo-simple-select-outlined-label demo-simple-select-outlined</value>
+      <webElementGuid>e67f359e-db91-4f18-a048-7ad28cb6bcd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>demo-simple-select-outlined</value>
+      <webElementGuid>13d0a130-a26b-40d5-988c-c5ef7e45fd04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>50MB 2Go Weekly Plan </value>
+      <webElementGuid>97139ef8-400e-4754-8fee-a6ab24674202</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;uncontrolled-tab-example-tabpane-data&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-9 col-md-8&quot;]/form[1]/div[@class=&quot;campaign-wrapper&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;sc-eBMEME bZnswG&quot;]/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-3&quot;]/div[@class=&quot;input-wrapper&quot;]/div[@class=&quot;MuiFormControl-root&quot;]/div[@class=&quot;MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl&quot;]/div[@id=&quot;demo-simple-select-outlined&quot;]</value>
+      <webElementGuid>8c6dc7a5-7a82-44af-bf18-747cbeabb1b2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//div[@id='demo-simple-select-outlined'])[2]</value>
+      <webElementGuid>c6a9ccce-d922-41aa-91b0-d8879eface5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='uncontrolled-tab-example-tabpane-data']/div/div/form/div/div[6]/div/div/div/div/div[3]/div/div/div/div</value>
+      <webElementGuid>1712793d-31e0-4c61-bf4b-d60c9d5d6631</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MTN Nigeria'])[2]/following::div[2]</value>
+      <webElementGuid>85bb5996-7dcb-44d3-ba30-1acb381b3530</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MTN Nigeria'])[1]/following::div[5]</value>
+      <webElementGuid>e8cacd29-3220-4886-8c6a-569ca8e891d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MTN Nigeria'])[3]/preceding::div[2]</value>
+      <webElementGuid>442c9d7b-034d-4ed8-a944-ea4a6fc8023f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Airtel Nigeria'])[1]/preceding::div[4]</value>
+      <webElementGuid>6d308d11-7f7d-4deb-82d1-307aced910d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div/div/div[3]/div/div/div/div</value>
+      <webElementGuid>02849aa9-c864-4faf-891c-7e7c5086e1ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'demo-simple-select-outlined' and (text() = '50MB 2Go Weekly Plan ' or . = '50MB 2Go Weekly Plan ')]</value>
+      <webElementGuid>f8cc39d2-0e95-40b2-935a-cda54c35a35c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

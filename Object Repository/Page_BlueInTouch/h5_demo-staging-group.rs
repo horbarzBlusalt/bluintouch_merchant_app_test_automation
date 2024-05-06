@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h5_demo-staging-group</name>
+   <tag></tag>
+   <elementGuidId>3ab347d7-8a19-4600-a278-f21256639a7c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Contacts'])[1]/following::h5[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.d-flex.my-1.p-2 > h5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>b7dadb77-ced3-40d4-8451-d796d77fd279</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>demo-staging-group</value>
+      <webElementGuid>f3f00cb4-2c2a-418b-8881-2403d6e0efcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;fade modal show&quot;]/div[@class=&quot;modal-dialog modal-md modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;sc-cWSHoV gnfcIm&quot;]/div[@class=&quot;contact-container&quot;]/div[@class=&quot;d-flex my-1 p-2&quot;]/h5[1]</value>
+      <webElementGuid>18fc2547-2664-4363-bc04-4fbdc4096e74</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Contacts'])[1]/following::h5[1]</value>
+      <webElementGuid>bce6139c-6fa1-4262-af8d-4dd0d4247479</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fund Wallet'])[4]/following::h5[1]</value>
+      <webElementGuid>ed4cadfc-3f19-4efd-887b-46f7c821d8f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Predemo-grp'])[1]/preceding::h5[2]</value>
+      <webElementGuid>0ca1b9a1-9e74-47fc-94bd-455a91fddcff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bulk Data Contacts'])[1]/preceding::h5[4]</value>
+      <webElementGuid>5c21dd67-aa7a-4407-a234-f1f60cf84005</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='demo-staging-group']/parent::*</value>
+      <webElementGuid>f49bad0b-539f-4165-9ae1-ce98d6866cce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/h5</value>
+      <webElementGuid>1d97ffc0-89bb-4dda-b407-3c8515abc09c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[(text() = 'demo-staging-group' or . = 'demo-staging-group')]</value>
+      <webElementGuid>590c59bb-3745-49da-a792-557c98bc7c30</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

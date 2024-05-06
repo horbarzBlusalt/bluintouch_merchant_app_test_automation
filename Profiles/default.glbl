@@ -39,4 +39,14 @@
       <initValue>true</initValue>
       <name>stagingEnv</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'FLCC'</initValue>
+      <name>existingSenderId</name>
+   </GlobalVariableEntity>
+    <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Automated SenderID'</initValue>
+      <name>newSenderId</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

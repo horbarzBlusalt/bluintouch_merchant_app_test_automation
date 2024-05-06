@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Add from Contact</name>
+   <tag></tag>
+   <elementGuidId>3be0ccbd-d4aa-4990-90d5-2643820dd2b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='uncontrolled-tab-example-tabpane-data']/div/div/form/div/div[2]/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.campaign-wrapper > div.row > div.upload-wrapper.col > div.contact</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ded65c65-4fdc-46e8-b5bc-6917a78356b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>contact</value>
+      <webElementGuid>070058fa-4a47-4b09-bf4d-5ccd75ccfc44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add from Contact</value>
+      <webElementGuid>9e2f113f-e561-4f0f-94bf-1f637a340635</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;uncontrolled-tab-example-tabpane-data&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-9 col-md-8&quot;]/form[1]/div[@class=&quot;campaign-wrapper&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;upload-wrapper col&quot;]/div[@class=&quot;contact&quot;]</value>
+      <webElementGuid>a78ff3bf-11d9-4156-8b0d-28cdf0748ce8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='uncontrolled-tab-example-tabpane-data']/div/div/form/div/div[2]/div/div[2]</value>
+      <webElementGuid>3f7cd4ca-6e38-4dce-b48e-153b2c8effa5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='sample file'])[3]/following::div[1]</value>
+      <webElementGuid>4a68ff23-d6d3-4ed5-90d7-e06b66d26885</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send Now'])[3]/preceding::div[5]</value>
+      <webElementGuid>f9c6953d-9b79-4145-87f8-160329bb3526</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Schedule for Later'])[3]/preceding::div[7]</value>
+      <webElementGuid>43a13689-be8d-4f45-ae46-290074031ff9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/form/div/div[2]/div/div[2]</value>
+      <webElementGuid>c17c9701-3b0e-4c2a-8741-cbf9eaf4be31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Add from Contact' or . = 'Add from Contact')]</value>
+      <webElementGuid>620b2636-4709-43ea-8833-9bd09057293e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

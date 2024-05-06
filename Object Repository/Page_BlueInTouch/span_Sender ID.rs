@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Sender ID</name>
+   <tag></tag>
+   <elementGuidId>6adc986e-6133-4224-ba11-5f9530eb7014</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='showSideMenu']/nav/ul[2]/ul/li[3]/div/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2d3daffd-6cc3-4991-be80-0e26283e675b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>side-navigation-panel-select-inner-option-text</value>
+      <webElementGuid>3d100acc-2fac-425f-8fe5-4ccce9cab8b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sender ID</value>
+      <webElementGuid>a48141ad-8d2b-4f87-a47b-2dd368a8037a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;showSideMenu&quot;)/nav[@class=&quot;side-navigation-panel&quot;]/ul[@class=&quot;side-navigation-panel-select&quot;]/ul[@class=&quot;side-navigation-panel-select-inner&quot;]/li[@class=&quot;side-navigation-panel-select-inner-wrap&quot;]/div[@class=&quot;side-navigation-panel-select-inner-option&quot;]/span[@class=&quot;side-navigation-panel-select-inner-option-wrap&quot;]/span[@class=&quot;side-navigation-panel-select-inner-option-text&quot;]</value>
+      <webElementGuid>17802110-63fb-4d56-ae97-b6ac98261289</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='showSideMenu']/nav/ul[2]/ul/li[3]/div/span/span</value>
+      <webElementGuid>4024dd1d-1f5b-4d7a-9dc5-e9d2573cda5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send Bulk'])[1]/following::span[2]</value>
+      <webElementGuid>45b37a81-1281-4825-a36f-6089c86fbd9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Bulk'])[1]/following::span[4]</value>
+      <webElementGuid>8997c15d-5173-4199-b8fd-2da04519c701</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Services'])[1]/preceding::span[1]</value>
+      <webElementGuid>97509b85-86e2-4e6b-b5cd-d88231781c4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contacts'])[1]/preceding::span[3]</value>
+      <webElementGuid>33c3bfa3-ef5f-4400-9f65-c6f2ec8cba1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sender ID']/parent::*</value>
+      <webElementGuid>b07b0770-e4ac-42f6-97c6-4365be392fde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/div/span/span</value>
+      <webElementGuid>1b3dd84a-89e5-4dbb-b20b-f8f07a46d701</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Sender ID' or . = 'Sender ID')]</value>
+      <webElementGuid>1567ebb3-daff-46c9-9bb5-818c86fb60cf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

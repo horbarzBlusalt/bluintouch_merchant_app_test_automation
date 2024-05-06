@@ -129,3 +129,5 @@ catch (Exception e) {
     WebUI.verifyElementText(findTestObject('Page_BlueInTouch/bulk_success_message'), 'Bulk SMS launched successfully')
 } 
 
+WebUI.closeBrowser()
+

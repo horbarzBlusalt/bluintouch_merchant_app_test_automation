@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_149.99</name>
+   <tag></tag>
+   <elementGuidId>aa0ea0b6-76cd-4d3d-b41e-e49885858049</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='uncontrolled-tab-example-tabpane-data']/div/div[2]/div/div/div/div[2]/div/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#uncontrolled-tab-example-tabpane-data > div.row > div.col-lg-3.col-md-4 > div.card-wrapper > div.card > div.card-body > div.card-text > div.sc-feUZmu.mKfwZ > div > div.price > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d0741c25-caa3-4b30-a50a-fb012a775dcd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>₦149.99</value>
+      <webElementGuid>ef7efcf0-addf-43f7-b506-4c730d54e9d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;uncontrolled-tab-example-tabpane-data&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-3 col-md-4&quot;]/div[@class=&quot;card-wrapper&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card-text&quot;]/div[@class=&quot;sc-feUZmu mKfwZ&quot;]/div[1]/div[@class=&quot;price&quot;]/span[1]</value>
+      <webElementGuid>d5a4a8c8-e779-4663-8da8-1d95282bc81b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='uncontrolled-tab-example-tabpane-data']/div/div[2]/div/div/div/div[2]/div/div/div[2]/span</value>
+      <webElementGuid>ccb5a480-6d14-448a-847d-c5256048d4d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Price'])[3]/following::span[1]</value>
+      <webElementGuid>017ecedf-b9ce-4b21-ae7c-f36bfdd27e67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Schedule for Later'])[3]/following::span[1]</value>
+      <webElementGuid>adc75028-15f7-4e64-8411-a3d43d9c82e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Wallet Balance'])[3]/preceding::span[1]</value>
+      <webElementGuid>beff2530-1352-4600-a502-a0214b209b68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₦124,946.00'])[3]/preceding::span[1]</value>
+      <webElementGuid>aa3e930d-2a9e-456f-8167-18650e7b5c25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='₦149.99']/parent::*</value>
+      <webElementGuid>0200dfa7-ae65-46d9-b073-6609cb6866d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/div/div/div[2]/div/div/div[2]/span</value>
+      <webElementGuid>269f8493-7753-42fc-894d-cfc90964fbf2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '₦149.99' or . = '₦149.99')]</value>
+      <webElementGuid>acb40783-2b3c-4dfc-bc86-1894751d6521</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

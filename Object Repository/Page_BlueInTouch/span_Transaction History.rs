@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Transaction History</name>
+   <tag></tag>
+   <elementGuidId>a5e8cadf-01fe-4939-a5c5-e7bc1ea7394d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Transaction History')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>77a72ac8-4c96-4cbe-ad1b-4150a0cb7254</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>side-navigation-panel-select-inner-option-text</value>
+      <webElementGuid>20ac13ba-890a-4770-8ef0-ea734a69866e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Transaction History</value>
+      <webElementGuid>28ece8dd-dce1-4b7d-bcf2-7f16b0d3a4d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hideSideMenu&quot;)/nav[@class=&quot;side-navigation-panel&quot;]/ul[@class=&quot;side-navigation-panel-select&quot;]/ul[@class=&quot;side-navigation-panel-select-inner&quot;]/li[@class=&quot;side-navigation-panel-select-inner-wrap&quot;]/div[@class=&quot;side-navigation-panel-select-inner-option&quot;]/span[@class=&quot;side-navigation-panel-select-inner-option-wrap&quot;]/span[@class=&quot;side-navigation-panel-select-inner-option-text&quot;]</value>
+      <webElementGuid>2168abb9-f05b-47ce-8c33-d6b906dd95ec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='hideSideMenu']/nav/ul[7]/ul/li[3]/div/span/span</value>
+      <webElementGuid>c27d94fd-261e-4357-96af-609bc1e1a417</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Service Report'])[1]/following::span[2]</value>
+      <webElementGuid>2e099c3a-c931-496e-a837-93253876269b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audit Trail'])[1]/following::span[4]</value>
+      <webElementGuid>b6a482bc-7df6-4a71-93b8-8a2fb230da84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/preceding::span[1]</value>
+      <webElementGuid>9a8917fd-2399-4b4c-9be7-901c41ddef6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log Out'])[1]/preceding::span[3]</value>
+      <webElementGuid>fd8c61a3-00bf-442a-99bb-5a7c418df49a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/div/span/span</value>
+      <webElementGuid>0a90a9e5-a7a7-474c-8131-38a8c4b34c0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Transaction History' or . = 'Transaction History')]</value>
+      <webElementGuid>84d1cf7e-f7ba-4138-aeca-ad81a5b970c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

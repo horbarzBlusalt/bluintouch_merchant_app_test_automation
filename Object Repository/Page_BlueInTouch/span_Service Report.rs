@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Service Report</name>
+   <tag></tag>
+   <elementGuidId>4576e210-69b4-4ac1-a7c1-24dd4fd1b077</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='hideSideMenu']/nav/ul[7]/ul/li[2]/div/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0262b185-415b-43cb-9432-8023bcc62260</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>side-navigation-panel-select-inner-option-text</value>
+      <webElementGuid>fcbfb9dd-7d0c-4478-8aae-da7b54ea3ed9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Service Report</value>
+      <webElementGuid>d571b1be-dadd-4bc1-89f7-842acdd539fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hideSideMenu&quot;)/nav[@class=&quot;side-navigation-panel&quot;]/ul[@class=&quot;side-navigation-panel-select&quot;]/ul[@class=&quot;side-navigation-panel-select-inner&quot;]/li[@class=&quot;side-navigation-panel-select-inner-wrap&quot;]/div[@class=&quot;side-navigation-panel-select-inner-option&quot;]/span[@class=&quot;side-navigation-panel-select-inner-option-wrap&quot;]/span[@class=&quot;side-navigation-panel-select-inner-option-text&quot;]</value>
+      <webElementGuid>b3e7f47f-3939-4be2-a169-0142ecd5658f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='hideSideMenu']/nav/ul[7]/ul/li[2]/div/span/span</value>
+      <webElementGuid>56ab991d-ca00-423f-8ca2-d634683183ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audit Trail'])[1]/following::span[2]</value>
+      <webElementGuid>6cb29ffe-1819-4e5e-96bb-2a379032a399</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reports'])[1]/following::span[4]</value>
+      <webElementGuid>f4a56ead-7c54-4d62-af9a-e4bc49b8a9db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction History'])[2]/preceding::span[1]</value>
+      <webElementGuid>67b0eb37-6db8-4a29-b6bd-869724b80c09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/preceding::span[3]</value>
+      <webElementGuid>0e6cd5ae-661d-46ac-9df6-918eb327c29c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Service Report']/parent::*</value>
+      <webElementGuid>e731a703-aaa5-4bcf-8852-54dd7db12ad2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div/span/span</value>
+      <webElementGuid>83ae6d6c-3483-4fe8-8711-7b829374aa48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Service Report' or . = 'Service Report')]</value>
+      <webElementGuid>14a75c68-fc00-4f4e-a5b3-50997ed4ecfa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
