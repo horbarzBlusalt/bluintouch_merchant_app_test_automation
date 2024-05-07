@@ -17,6 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.util.*
+import java.io.File
+
+def filePath = 'Bulk Uploads/sms.csv'
+
+File file = new File(filePath);
 
 Random rand = new Random()
 
@@ -44,7 +49,7 @@ WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/button_Send Now')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BlueInTouch/div_please fill all fields'), 0)
 
-WebUI.uploadFile(findTestObject('Page_BlueInTouch/upload_contact'), '/Users/obaloluwaabioye/Katalon Studio/MerchantPortal/Bulk Uploads/sms.csv')
+WebUI.uploadFile(findTestObject('Page_BlueInTouch/upload_contact'), file.getAbsolutePath())
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BlueInTouch/span_100'), 0)
 
@@ -97,7 +102,7 @@ try {
     WebUI.setText(findTestObject('Object Repository/Page_BlueInTouch/textarea_Good morning people, this is an au_c206c9'), 
         'Good morning people, this is an automated sms feature')
 
-    WebUI.uploadFile(findTestObject('Page_BlueInTouch/upload_contact'), '/Users/obaloluwaabioye/Katalon Studio/MerchantPortal/Bulk Uploads/sms.csv')
+    WebUI.uploadFile(findTestObject('Page_BlueInTouch/upload_contact'), file.getAbsolutePath())
 
     WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BlueInTouch/span_100'), 0)
 

@@ -17,6 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.util.*
+import java.io.File as File
+
+def filePath = 'Bulk Uploads/airtime_nigeria.csv'
+
+File file = new File(filePath)
 
 Random rand = new Random()
 
@@ -34,7 +39,7 @@ WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/a_Airtime'))
 
 WebUI.setText(findTestObject('Object Repository/Page_BlueInTouch/input_Bulk Name_campaignName'), 'Automated Bulk Airtime')
 
-WebUI.uploadFile(findTestObject('Page_BlueInTouch/upload_contact_airtime'), '/Users/obaloluwaabioye/Katalon Studio/MerchantPortal/Bulk Uploads/airtime_nigeria.csv')
+WebUI.uploadFile(findTestObject('Page_BlueInTouch/upload_contact_airtime'), file.getAbsolutePath())
 
 WebUI.verifyTextPresent('100%', false)
 
@@ -72,7 +77,7 @@ try {
     WebUI.setText(findTestObject('Object Repository/Page_BlueInTouch/input_Bulk Name_campaignName'), 'Automated Bulk Airtime' + 
         rand_number)
 
-    WebUI.uploadFile(findTestObject('Page_BlueInTouch/upload_contact_airtime'), '/Users/obaloluwaabioye/Katalon Studio/MerchantPortal/Bulk Uploads/airtime_nigeria.csv')
+    WebUI.uploadFile(findTestObject('Page_BlueInTouch/upload_contact_airtime'), file.getAbsolutePath())
 
     WebUI.verifyTextPresent('100%', false)
 
@@ -109,6 +114,8 @@ WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/img_Fund Wallet_l
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BlueInTouch/div_completed'), 0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_BlueInTouch/td_0'), '0')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_BlueInTouch/span_Reports'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/span_Reports'))
 

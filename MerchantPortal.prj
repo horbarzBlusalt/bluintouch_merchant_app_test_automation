@@ -4,8 +4,12 @@
    <name>MerchantPortal</name>
    <tag></tag>
    <UUID>413952be-4de0-4e0f-854f-01a93421fc0d</UUID>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>9.4.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/odirieboh/git/bluintouch_merchant_app_test_automation/MerchantPortal.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

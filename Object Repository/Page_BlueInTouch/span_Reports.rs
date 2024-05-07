@@ -6,15 +6,15 @@
    <elementGuidId>d902e284-a579-4b97-bc7f-86cea41d565c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='hideSideMenu']/nav/ul[7]/li/div/span</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Reports')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>70d435a5-309a-4a32-858c-c4289022083e</webElementGuid>
+      <webElementGuid>2dba9d0f-5dff-416e-98f5-b091305be37f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>side-navigation-panel-select-option-wrap</value>
-      <webElementGuid>23f9660e-38f8-41cb-9db6-24d1192c7770</webElementGuid>
+      <webElementGuid>2a826b04-b41b-435c-a007-f27a50e02612</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,7 +40,7 @@
       <value>
 
 Reports</value>
-      <webElementGuid>5f1daaca-4ef7-4c35-bb67-44491ac6d6bc</webElementGuid>
+      <webElementGuid>885dd2bf-7512-44b8-bc23-f7078a510cd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +48,7 @@ Reports</value>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;hideSideMenu&quot;)/nav[@class=&quot;side-navigation-panel&quot;]/ul[@class=&quot;side-navigation-panel-select&quot;]/li[@class=&quot;side-navigation-panel-select-wrap&quot;]/div[@class=&quot;side-navigation-panel-select-option&quot;]/span[@class=&quot;side-navigation-panel-select-option-wrap&quot;]</value>
-      <webElementGuid>51598501-45f2-4ba9-af5c-9d127b1a6a8b</webElementGuid>
+      <webElementGuid>bde6014c-3875-4dd5-a105-eb9731664bbd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,7 +56,7 @@ Reports</value>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='hideSideMenu']/nav/ul[7]/li/div/span</value>
-      <webElementGuid>35cc5fd0-5f19-4ad8-9cdd-a307e3a03533</webElementGuid>
+      <webElementGuid>f2a10781-b5d1-48d4-83f8-524c432abef0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,7 +64,7 @@ Reports</value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Wallet'])[1]/following::span[1]</value>
-      <webElementGuid>4c420baa-0614-40b7-8171-edd3933b02f5</webElementGuid>
+      <webElementGuid>5779255f-1fe5-43b8-bb57-16e3e54e1323</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@ Reports</value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Prices'])[1]/following::span[3]</value>
-      <webElementGuid>f745a3fd-5606-4253-a8a8-83b72684aaf5</webElementGuid>
+      <webElementGuid>efd9bd7f-9066-468f-8a44-1a774fc1bd5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@ Reports</value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/preceding::span[2]</value>
-      <webElementGuid>82329d75-f28d-4ae0-9a18-c538cafdc639</webElementGuid>
+      <webElementGuid>917538a7-f215-409f-9cce-e98c4dcd83ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@ Reports</value>
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ul[7]/li/div/span</value>
-      <webElementGuid>437d773e-6dbb-4736-9108-2c54b732b23e</webElementGuid>
+      <webElementGuid>56179c95-7c51-418d-8dbf-5b81b5a4b846</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,6 +100,6 @@ Reports</value>
 Reports' or . = '
 
 Reports')]</value>
-      <webElementGuid>59b7e40d-0477-45c0-ab1d-62e47140c945</webElementGuid>
+      <webElementGuid>38d6a48a-3866-481b-8cb7-ed0976f2177b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
