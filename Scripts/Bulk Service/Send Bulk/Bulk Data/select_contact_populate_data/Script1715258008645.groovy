@@ -16,11 +16,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.io.File
 
+def filePath = 'Bulk Uploads/data.csv'
 
-WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/div_Add from Contact'))
+File file = new File(filePath)
 
-WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/h5_demo-staging-group'))
+if(GlobalVariable.uploadContact) {
+	
+	WebUI.uploadFile(findTestObject('Page_BlueInTouch/upload_contact_data'), file.getAbsolutePath())
+	WebUI.verifyTextPresent('100%', false)
+	
+	
+}else {
+	WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/div_Add from Contact'))
+	WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/h5_demo-staging-group'))
+}
+
 
 String networkProvider = WebUI.getAttribute(findTestObject('Object Repository/Page_BlueInTouch/data_text_one'), 'innerText')
 println(networkProvider)

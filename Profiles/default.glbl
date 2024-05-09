@@ -44,9 +44,14 @@
       <initValue>'FLCC'</initValue>
       <name>existingSenderId</name>
    </GlobalVariableEntity>
-    <GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description></description>
       <initValue>'Automated SenderID'</initValue>
       <name>newSenderId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>true</initValue>
+      <name>uploadContact</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -23,8 +23,8 @@ if(getNetworkProvider.equals("MTN Nigeria")) {
 	WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/div_50MB 2Go Weekly Plan'))
 }else if(getNetworkProvider.equals("Airtel Nigeria")) {
 	WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/div_This Data plan gives 40MB for N50 valid_8433bb'))
-}else if(getNetworkProvider.equals("9Mobile Nigeria")) {
-	
-}else if(getNetworkProvider.equals("Glo Nigeria")) {
-	
+}else if(getNetworkProvider.contains("9Mobile")) {
+	WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/9mobile_data'))
+}else if(getNetworkProvider.contains("Glo")) {
+	WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/glo_data'))
 }

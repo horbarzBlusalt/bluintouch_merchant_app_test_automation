@@ -29,8 +29,11 @@ WebUI.setText(findTestObject('Page_BlueInTouch/service_otp_three'), getOTP[2])
 
 WebUI.setText(findTestObject('Page_BluInTouch/two_fa_input_four'), getOTP[3])
 
-WebUI.setText(findTestObject('Page_BluInTouch/two_fa_input_five'), getOTP[4])
-
+try {
+	WebUI.setText(findTestObject('Page_BluInTouch/two_fa_input_five'), getOTP[4])
+}catch(Exception e) {
+	WebUI.setText(findTestObject('Page_BluInTouch/two_fa_input_five_b'), getOTP[4])
+}
 try {
     WebUI.setText(findTestObject('Page_BluInTouch/two_fa_input_six'), getOTP[5])
 }
