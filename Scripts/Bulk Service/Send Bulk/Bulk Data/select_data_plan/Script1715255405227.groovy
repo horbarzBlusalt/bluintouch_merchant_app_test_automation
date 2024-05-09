@@ -17,24 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String getOTP = "$otpValue"
+String getNetworkProvider = "$networkProvider"
 
-println(getOTP)
-
-WebUI.setText(findTestObject('Page_BlueInTouch/service_otp_one'), getOTP[0])
-
-WebUI.setText(findTestObject('Page_BlueInTouch/service_otp_two'), getOTP[1])
-
-WebUI.setText(findTestObject('Page_BlueInTouch/service_otp_three'), getOTP[2])
-
-WebUI.setText(findTestObject('Page_BluInTouch/two_fa_input_four'), getOTP[3])
-
-WebUI.setText(findTestObject('Page_BluInTouch/two_fa_input_five'), getOTP[4])
-
-try {
-    WebUI.setText(findTestObject('Page_BluInTouch/two_fa_input_six'), getOTP[5])
+if(getNetworkProvider.equals("MTN Nigeria")) {
+	WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/div_50MB 2Go Weekly Plan'))
+}else if(getNetworkProvider.equals("Airtel Nigeria")) {
+	WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/div_This Data plan gives 40MB for N50 valid_8433bb'))
+}else if(getNetworkProvider.equals("9Mobile Nigeria")) {
+	
+}else if(getNetworkProvider.equals("Glo Nigeria")) {
+	
 }
-catch (Exception e) {
-    WebUI.setText(findTestObject('Page_BluInTouch/two_fa_input six_a'), getOTP[5])
-} 
-

@@ -36,31 +36,11 @@ WebUI.click(findTestObject('Page_BlueInTouch/button_Send Bulk Data'))
 
 WebUI.setText(findTestObject('Page_BlueInTouch/input_Bulk Name_dataCampaignName'), 'Automated Bulk Data')
 
-WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/div_Add from Contact'))
-
-WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/h5_demo-staging-group'))
-
-WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/div_'))
-
-WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/div_50MB 2Go Weekly Plan'))
-
-WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/div_'))
-
-WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/div_This Data plan gives 40MB for N50 valid_8433bb'))
-
-WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/div_'))
-
-WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/div_50MB 2Go Weekly Plan'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BlueInTouch/span_149.99'), 0)
-
-WebUI.click(findTestObject('Page_BlueInTouch/button_Send Bulk Data'))
-
-WebUI.click(findTestObject('Page_BlueInTouch/div_Pay With Wallet'))
+WebUI.callTestCase(findTestCase('Bulk Service/Send Bulk/Bulk Data/select_contact_populate_data'), null)
 
 WebUI.callTestCase(findTestCase('Common Utilities/enter_payment_otp'), [('otpValue') : '123456'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/button_Proceed'))
+WebUI.click(findTestObject('Page_BlueInTouch/proceed_btn'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_BlueInTouch/div_Invalid token passed'), 'Invalid token passed')
 
@@ -76,22 +56,20 @@ WebUI.switchToWindowIndex(bulkDataWindow)
 
 WebUI.callTestCase(findTestCase('Common Utilities/enter_payment_otp'), [('otpValue') : otp], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/button_Proceed'))
+WebUI.click(findTestObject('Page_BlueInTouch/proceed_btn'))
 
 try {
     WebUI.verifyElementText(findTestObject('Page_Inbox/div_Invalid token passed'), 'This campaign already exists')
 
     WebUI.refresh()
 
-    WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/a_Airtime'))
+	WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/a_Data'))
 
-    WebUI.setText(findTestObject('Object Repository/Page_BlueInTouch/input_Bulk Name_campaignName'), 'Automated Bulk Airtime' + 
+    WebUI.setText(findTestObject('Page_BlueInTouch/input_Bulk Name_dataCampaignName'), 'Automated Bulk Data' + 
         rand_number)
 
-    WebUI.click(findTestObject('Page_BlueInTouch/button_Send Bulk Airtime'))
-
-    WebUI.click(findTestObject('Page_BlueInTouch/div_Pay With Wallet'))
-
+	WebUI.callTestCase(findTestCase('Bulk Service/Send Bulk/Bulk Data/select_contact_populate_data'), null)
+	
     WebUI.switchToWindowIndex(bulkDataWindow + 1)
 
     WebUI.refresh()
@@ -116,7 +94,7 @@ catch (Exception e) {
 
 WebUI.click(findTestObject('Page_BlueInTouch/img_Fund Wallet_logo'))
 
-WebUI.verifyElementText(findTestObject('Page_BlueInTouch/div_completed'), 'completed')
+WebUI.verifyElementText(findTestObject('Page_BlueInTouch/div_completed'), 'Completed')
 
 WebUI.verifyElementPresent(findTestObject('Page_BlueInTouch/td_0'), 0)
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>select_data_plan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3866ac6-7f98-45b5-833f-fdd15e5eb622</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>184829a4-cbe5-49cd-8792-12fa3e11e6fd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'MTN Nigeria'</defaultValue>
+      <description></description>
+      <id>184829a4-cbe5-49cd-8792-12fa3e11e6fd</id>
+      <masked>false</masked>
+      <name>networkProvider</name>
+   </variable>
+</TestCaseEntity>

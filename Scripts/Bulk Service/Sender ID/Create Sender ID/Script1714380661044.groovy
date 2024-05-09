@@ -48,7 +48,7 @@ WebUI.click(findTestObject('Page_BlueInTouch/div_country'))
 
 WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/li_Nigeria'))
 
-WebUI.setText(findTestObject('Page_BlueInTouch/textarea_Hello welcome to our test automation'), 'Hello welcome to our test automation')
+WebUI.setText(findTestObject('Page_BlueInTouch/senderSampleTextArea'), 'Hello welcome to our test automation')
 
 WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/button_Submit'))
 
@@ -62,22 +62,27 @@ WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/button_Submit'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BlueInTouch/div_Your ID is being verified by our Admin,_392d60'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BlueInTouch/div_Click the button below if you would wan_6e6856'), 
-    0)
-
-WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/button_Continue'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_BlueInTouch/div_pending'), 'pending')
-
-WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/a_Pending'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BlueInTouch/div_pending'), 0)
-
-WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/a_Approved'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BlueInTouch/div_approved'), 0)
-
-WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/a_Rejected'))
+if(WebUI.getAttribute(findTestObject('Object Repository/Page_BlueInTouch/div_Your ID is being verified by our Admin,_392d60'),
+	'innerText').containsIgnoreCase("You can't request for more than two senderId")) {
+	//login to the admin portal and reject pending requests
+}else {
+	WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BlueInTouch/div_Click the button below if you would wan_6e6856'),
+		0)
+	
+	WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/button_Continue'))
+	
+	WebUI.verifyElementText(findTestObject('Object Repository/Page_BlueInTouch/div_pending'), 'pending')
+	
+	WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/a_Pending'))
+	
+	WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BlueInTouch/div_pending'), 0)
+	
+	WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/a_Approved'))
+	
+	WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BlueInTouch/div_approved'), 0)
+	
+	WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/a_Rejected'))
+}
 
 WebUI.closeBrowser()
 
