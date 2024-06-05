@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Validation/Login TC'), [:], FailureHandling.STOP_ON_FAILURE)
 
+airtimeWindow = WebUI.getWindowIndex()
+
 WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/span_Services'))
 
 WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/span_Airtime'))
@@ -27,7 +29,7 @@ WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/button_Pay'))
 
 WebUI.verifyElementPresent(findTestObject('Page_BlueInTouch/div_please fill all fields'), 0)
 
-WebUI.setText(findTestObject('Object Repository/Page_BlueInTouch/input_Buy Airtime_phone_number'), '+2348175885645')
+WebUI.setText(findTestObject('Object Repository/Page_BlueInTouch/input_Buy Airtime_phone_number'), '8175885645')
 
 WebUI.setText(findTestObject('Object Repository/Page_BlueInTouch/input__amount'), '10')
 
@@ -35,17 +37,17 @@ WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/button_Pay'))
 
 WebUI.click(findTestObject('Page_BlueInTouch/div_Pay With Wallet'))
 
-WebUI.switchToWindowTitle('YOPmail - Disposable Email Address - Anonymous and temporary inbox')
+WebUI.executeJavaScript('window.open();', [])
 
-WebUI.setText(findTestObject('Page_YOPmail - Disposable Email Address - A_32619f/input_Type the Email name of your choice_login'), 
-    'richbayo')
+WebUI.switchToWindowIndex(airtimeWindow + 1)
 
-WebUI.sendKeys(findTestObject('Page_YOPmail - Disposable Email Address - A_32619f/input_Type the Email name of your choice_login'), 
-    Keys.chord(Keys.ENTER))
+WebUI.callTestCase(findTestCase('Common Utilities/retrieve_otp'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.switchToWindowTitle('BlueInTouch')
+String otp = WebUI.getText(findTestObject('Object Repository/Page_BluInTouch/otp_value'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BlueInTouch/input_10.00_sc-dLMFU bKPCnw otpInput'), '0')
+WebUI.switchToWindowIndex(airtimeWindow)
+
+WebUI.callTestCase(findTestCase('Common Utilities/enter_payment_otp'), [('otpValue') : otp], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_BlueInTouch/button_Proceed'))
 
@@ -54,9 +56,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BlueInTouch/di
 
 WebUI.refresh()
 
-WebUI.switchToWindowTitle('BlueInTouch')
-
-WebUI.setText(findTestObject('Object Repository/Page_BlueInTouch/input_Buy Airtime_phone_number'), '+2348175885645')
+WebUI.setText(findTestObject('Object Repository/Page_BlueInTouch/input_Buy Airtime_phone_number'), '8175885645')
 
 WebUI.setText(findTestObject('Object Repository/Page_BlueInTouch/input__amount'), '100')
 
@@ -64,7 +64,17 @@ WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/button_Pay'))
 
 WebUI.click(findTestObject('Page_BlueInTouch/div_Pay With Wallet'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BlueInTouch/input_10.00_sc-dLMFU bKPCnw otpInput'), '1')
+WebUI.executeJavaScript('window.open();', [])
+
+WebUI.switchToWindowIndex(airtimeWindow + 1)
+
+WebUI.callTestCase(findTestCase('Common Utilities/retrieve_otp'), [:], FailureHandling.STOP_ON_FAILURE)
+
+otp = WebUI.getText(findTestObject('Object Repository/Page_BluInTouch/otp_value'))
+
+WebUI.switchToWindowIndex(airtimeWindow)
+
+WebUI.callTestCase(findTestCase('Common Utilities/enter_payment_otp'), [('otpValue') : otp], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_BlueInTouch/button_Proceed'))
 

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Account NameOlaide Ajose-adeogun</name>
+   <tag></tag>
+   <elementGuidId>ad84da5e-b44b-470a-b350-898df36cc7f0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/main/section/div/section/section/div[2]/section/div/div/form/div/div/div/div[2]/div[3]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Account Name:Olaide Ajose-adeogun&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7e7743f3-0f78-47a4-b273-152642ae213c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Account Name:Olaide Ajose-adeogun</value>
+      <webElementGuid>ff830293-d1e9-4bf9-8680-4b82615c83a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-JrDLc knFozZ&quot;]/main[1]/section[@class=&quot;dashboard__container scrollbar&quot;]/div[@class=&quot;paybill-wrapper&quot;]/section[1]/section[@class=&quot;info-sec&quot;]/div[@class=&quot;cabletv-wrapper&quot;]/section[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-8&quot;]/form[1]/div[@class=&quot;card-wrapper&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card-text&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[1]</value>
+      <webElementGuid>fcfcde7f-cfeb-43b1-99d4-aed26278404e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/main/section/div/section/section/div[2]/section/div/div/form/div/div/div/div[2]/div[3]/div/div</value>
+      <webElementGuid>bb7b6952-267b-45c2-8c93-d2f3732ca4d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Bouquet'])[1]/preceding::div[1]</value>
+      <webElementGuid>e5ef25e1-7c77-4985-acc5-0d2a1477a56f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Account Name:']/parent::*</value>
+      <webElementGuid>fe5183d7-a40b-4b42-8db6-aba55ff464af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/div/div</value>
+      <webElementGuid>04f54405-6e43-46d5-b1f6-63a4a6efc116</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Account Name:Olaide Ajose-adeogun' or . = 'Account Name:Olaide Ajose-adeogun')]</value>
+      <webElementGuid>5dff1ae7-59bf-4c3e-88e9-6312f821af8d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

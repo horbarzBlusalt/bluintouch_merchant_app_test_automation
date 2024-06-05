@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[2]</value>
+         <value>(//button[text()='Pay'])</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -15,6 +15,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b82ff315-31d7-45b5-aa48-56f9ac00c1c4</webElementGuid>
+      <webElementGuid>d56caefb-11d7-41ad-b480-84a5b8f5eabc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>35bcb5a9-a52b-4d63-856b-6013d699fdad</webElementGuid>
+      <webElementGuid>22f6ea1a-83ad-40f3-a30e-deba1e94e400</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>primary btn btn-primary btn-lg</value>
-      <webElementGuid>2477d5f8-55e4-4ea6-8c1b-b56c1b13ceea</webElementGuid>
+      <webElementGuid>c9553355-88c4-440a-a0d9-b9fab8d4a829</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Pay</value>
-      <webElementGuid>d86b049b-2123-4768-b6a7-01db385f5d9d</webElementGuid>
+      <webElementGuid>4c4dd951-9c36-4eff-b8ec-c18f4e952931</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;sc-JrDLc knFozZ&quot;]/main[1]/section[@class=&quot;dashboard__container scrollbar&quot;]/div[@class=&quot;airtime-wrapper&quot;]/section[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-8&quot;]/form[1]/div[@class=&quot;card-wrapper&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card-text&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;button-wrapper my-2&quot;]/div[1]/button[@class=&quot;primary btn btn-primary btn-lg&quot;]</value>
-      <webElementGuid>def0bb52-cc3e-4558-ae3b-9633a101890c</webElementGuid>
+      <webElementGuid>4ca38702-97ef-4602-bc9e-601970daeeab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>3686e800-97e0-4bc4-aa17-2f0bb62deda2</webElementGuid>
+      <webElementGuid>d846df97-f7dd-44a9-93e8-1dc579bbd469</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[2]/main/section/div/section/div/div/form/div/div/div/div[2]/div[2]/div/div/div/button</value>
-      <webElementGuid>a39f63bd-6299-40be-8f43-2e4f5cf07fa9</webElementGuid>
+      <webElementGuid>b002c356-3c2c-47dc-a8ec-13b3d7bc9300</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[2]/following::button[1]</value>
-      <webElementGuid>5535ba3d-11e5-477a-afee-b8f488735c15</webElementGuid>
+      <webElementGuid>6f27d69e-a620-4b68-ae53-1666bfd6d7e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/following::button[1]</value>
-      <webElementGuid>7612816a-dedf-4250-b7e9-9297d2a5eb57</webElementGuid>
+      <webElementGuid>0a37c040-12c9-49f8-aa90-648c18d2b4d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Price'])[1]/preceding::button[1]</value>
-      <webElementGuid>b8030d42-cabd-461e-a1e6-60c817de4dd3</webElementGuid>
+      <webElementGuid>6eaf8cda-ae17-4c03-b96f-fe486609d8c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='₦0'])[1]/preceding::button[1]</value>
-      <webElementGuid>503614bb-2545-41b5-b099-7b5b3a40dc6c</webElementGuid>
+      <webElementGuid>59b0a08f-7f55-4e3f-a235-0a7590d349a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Pay']/parent::*</value>
-      <webElementGuid>2b77c781-cfca-4345-8a16-a81e2dd4faeb</webElementGuid>
+      <webElementGuid>3935244c-46dd-4829-a49c-ad5d923c9d7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +119,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/button</value>
-      <webElementGuid>6de8ecfd-53bd-441d-8fe5-c67dfe4c8d5c</webElementGuid>
+      <webElementGuid>a1653e37-bf2b-4851-a6d5-231e46ac7016</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +127,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Pay' or . = 'Pay')]</value>
-      <webElementGuid>85e40782-d5c7-4970-bdb3-1b7d27cd4dfb</webElementGuid>
+      <webElementGuid>bc3b937f-e201-49b1-9261-1cb0b4411483</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[8]</value>
+         <value>(//button[text()='Proceed'])</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f6c3adab-dd66-414a-9c8d-6c0ad63acaa6</webElementGuid>
+      <webElementGuid>9a8a95d7-c345-46cf-9076-356ec2934d2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6c88379a-baad-4767-a0a7-3d2d918fda91</webElementGuid>
+      <webElementGuid>256e6848-2b3b-4c1a-8925-d92e20c6b89e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>outline btn btn-primary btn-lg</value>
-      <webElementGuid>53918d00-af83-4457-8097-bebd7c2cf030</webElementGuid>
+      <webElementGuid>ada82e14-125c-4952-93d4-dc96dbc76745</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Proceed</value>
-      <webElementGuid>c7d36761-9d4f-41e2-99ac-7f05b434bfdd</webElementGuid>
+      <webElementGuid>bc4a9e89-c1b7-46f2-a257-0447a6be6086</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;fade modal show&quot;]/div[@class=&quot;modal-dialog modal-md modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;sc-ikkxIA bmfCoU&quot;]/div[3]/div[@class=&quot;button-wrapper my-2&quot;]/div[1]/button[@class=&quot;outline btn btn-primary btn-lg&quot;]</value>
-      <webElementGuid>8ae7e0ea-8eae-45ce-a5ea-5d8ed181e6b1</webElementGuid>
+      <webElementGuid>6c60b233-dd19-4942-98cc-4416e0710410</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[8]</value>
-      <webElementGuid>e416fb37-2301-40d3-a7cf-8232c4b511a9</webElementGuid>
+      <webElementGuid>11b8708a-c3bf-4715-9d3c-2489e069de5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fund Wallet'])[5]/following::button[1]</value>
-      <webElementGuid>2e9cfc92-c1b8-4bf4-8ec4-3814f8bbc66d</webElementGuid>
+      <webElementGuid>5683a2e1-417e-4687-b952-ebc33cfad09a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='₦150.00'])[1]/following::button[2]</value>
-      <webElementGuid>a989d084-1518-425c-a67b-6e07ce011f8a</webElementGuid>
+      <webElementGuid>eed79c92-a95b-4f77-a1db-64a60dcfe48a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Proceed']/parent::*</value>
-      <webElementGuid>f8401860-fc19-4af9-add8-4b9f05a84520</webElementGuid>
+      <webElementGuid>e1198051-6e58-49ae-82a3-4f7192c7aaa5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/div/button</value>
-      <webElementGuid>913e4188-20ff-4e3d-be44-2a11f8ca400c</webElementGuid>
+      <webElementGuid>1274f61c-cb2e-47da-9de8-72a55b759195</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Proceed' or . = 'Proceed')]</value>
-      <webElementGuid>f52987a3-7859-4681-ac55-1122e52668c9</webElementGuid>
+      <webElementGuid>ab034c95-fccb-44fe-9c0d-e941da75420d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

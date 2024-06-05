@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Services</name>
+   <name>span_Cable TV</name>
    <tag></tag>
-   <elementGuidId>d1dc9bca-4ad2-43f3-a99a-806f6a95dd4d</elementGuidId>
+   <elementGuidId>b5f75f32-9c5e-40a8-8ca2-85e05217c645</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div.content > span</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='showSideMenu']/nav/ul[3]/li/div/span/span</value>
+         <value>//div[@id='active']/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Services&quot;s</value>
+         <value>internal:text=&quot;Cable TV&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,94 +29,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>95243ea3-4e80-4b04-bf57-612c754514ff</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>side-navigation-panel-select-option-text</value>
-      <webElementGuid>7257fbf7-b4be-4403-befa-1655491b0d4b</webElementGuid>
+      <webElementGuid>cd35477f-b36f-444a-ba95-be2ada2cb934</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Services</value>
-      <webElementGuid>8fe1b010-c3bd-43b0-9080-c7caa01392d8</webElementGuid>
+      <value>Cable TV</value>
+      <webElementGuid>d04477d3-ab5a-4bc7-af4d-7866f133af33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;showSideMenu&quot;)/nav[@class=&quot;side-navigation-panel&quot;]/ul[@class=&quot;side-navigation-panel-select&quot;]/li[@class=&quot;side-navigation-panel-select-wrap&quot;]/div[@class=&quot;side-navigation-panel-select-option&quot;]/span[@class=&quot;side-navigation-panel-select-option-wrap&quot;]/span[@class=&quot;side-navigation-panel-select-option-text&quot;]</value>
-      <webElementGuid>0c2428b3-6f2d-439c-a184-de402b09171f</webElementGuid>
+      <value>id(&quot;active&quot;)/div[@class=&quot;content&quot;]/span[1]</value>
+      <webElementGuid>2385c901-8792-48f7-b131-4bed97679f87</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='showSideMenu']/nav/ul[3]/li/div/span/span</value>
-      <webElementGuid>2852532e-7ff8-43c3-8e5f-d4c43c65ed6e</webElementGuid>
+      <value>//div[@id='active']/div/span</value>
+      <webElementGuid>d4cdc897-eb68-46ea-a599-803b194f8ec7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bulk Service'])[1]/following::span[2]</value>
-      <webElementGuid>67a0daad-effc-4fd1-8cff-ec13f59e4c5b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Bill Category'])[1]/following::span[1]</value>
+      <webElementGuid>d495be74-d4e4-430b-89ca-a39e9380f82b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::span[4]</value>
-      <webElementGuid>41a50fb4-23a7-4f7c-a010-f7af05a351b5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Richard Bayo'])[1]/following::span[1]</value>
+      <webElementGuid>2889484d-c682-484e-830b-0667bc19616a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contacts'])[1]/preceding::span[1]</value>
-      <webElementGuid>43a50a85-d55f-4156-a566-7e67968eb0b0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Electricity'])[1]/preceding::span[1]</value>
+      <webElementGuid>91d621c6-6fe1-4311-bdf7-c4da9944f922</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prices'])[1]/preceding::span[3]</value>
-      <webElementGuid>d987f4cf-ae53-4ff1-8c50-abf603849de0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Internet'])[1]/preceding::span[2]</value>
+      <webElementGuid>87327668-5dcb-463a-8c79-122bf2cf9d03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Services']/parent::*</value>
-      <webElementGuid>8c0c3aaa-7b27-4c98-a472-396612f1bb77</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Cable TV']/parent::*</value>
+      <webElementGuid>caf73685-921c-4697-a2eb-abe497f36254</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//ul[3]/li/div/span/span</value>
-      <webElementGuid>7ad4fd25-52ed-4a85-af79-39eeaa631b81</webElementGuid>
+      <value>//section/div/div/div/span</value>
+      <webElementGuid>380764f7-0715-4aef-bf62-d44cdf627475</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Services' or . = 'Services')]</value>
-      <webElementGuid>8295e4a1-7b94-41b7-98e7-1dbce6c1c3a0</webElementGuid>
+      <value>//span[(text() = 'Cable TV' or . = 'Cable TV')]</value>
+      <webElementGuid>3d946c89-f5f4-4252-9836-8c48fb1edeb8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

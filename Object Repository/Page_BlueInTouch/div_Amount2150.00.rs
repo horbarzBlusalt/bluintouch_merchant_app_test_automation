@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Services</name>
+   <name>div_Amount2150.00</name>
    <tag></tag>
-   <elementGuidId>d1dc9bca-4ad2-43f3-a99a-806f6a95dd4d</elementGuidId>
+   <elementGuidId>45ab0391-9f12-4592-b699-cdee8a2cd340</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,14 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='showSideMenu']/nav/ul[3]/li/div/span/span</value>
+         <value>//div[@id='exportContainer']/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Services&quot;s</value>
+         <value>internal:text=&quot;Amount2150.00&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,95 +28,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>95243ea3-4e80-4b04-bf57-612c754514ff</webElementGuid>
+      <value>div</value>
+      <webElementGuid>73ce833f-2a27-49bc-9bff-e79367971f5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>side-navigation-panel-select-option-text</value>
-      <webElementGuid>7257fbf7-b4be-4403-befa-1655491b0d4b</webElementGuid>
+      <value>d-flex mb-2</value>
+      <webElementGuid>a36ab98f-a79f-4386-9b04-e89e61cb3ec0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Services</value>
-      <webElementGuid>8fe1b010-c3bd-43b0-9080-c7caa01392d8</webElementGuid>
+      <value>Amount2150.00</value>
+      <webElementGuid>72901fcd-0504-424b-8ff2-173668dc08d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;showSideMenu&quot;)/nav[@class=&quot;side-navigation-panel&quot;]/ul[@class=&quot;side-navigation-panel-select&quot;]/li[@class=&quot;side-navigation-panel-select-wrap&quot;]/div[@class=&quot;side-navigation-panel-select-option&quot;]/span[@class=&quot;side-navigation-panel-select-option-wrap&quot;]/span[@class=&quot;side-navigation-panel-select-option-text&quot;]</value>
-      <webElementGuid>0c2428b3-6f2d-439c-a184-de402b09171f</webElementGuid>
+      <value>id(&quot;exportContainer&quot;)/div[@class=&quot;d-flex mb-2&quot;]</value>
+      <webElementGuid>ef14e876-0ae1-42a1-8df9-70c411f93bce</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='showSideMenu']/nav/ul[3]/li/div/span/span</value>
-      <webElementGuid>2852532e-7ff8-43c3-8e5f-d4c43c65ed6e</webElementGuid>
+      <value>//div[@id='exportContainer']/div[2]</value>
+      <webElementGuid>f7864ef4-a588-4282-80f1-59affe344d5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bulk Service'])[1]/following::span[2]</value>
-      <webElementGuid>67a0daad-effc-4fd1-8cff-ec13f59e4c5b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment details'])[1]/following::div[1]</value>
+      <webElementGuid>bf1114ba-680b-4acd-a13b-7374da3d0c14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::span[4]</value>
-      <webElementGuid>41a50fb4-23a7-4f7c-a010-f7af05a351b5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Richard'])[1]/following::div[1]</value>
+      <webElementGuid>e32e166b-5ee0-412e-b722-8130b2e5152a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contacts'])[1]/preceding::span[1]</value>
-      <webElementGuid>43a50a85-d55f-4156-a566-7e67968eb0b0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download'])[1]/preceding::div[4]</value>
+      <webElementGuid>088ecfb5-f94a-49ba-a530-01045897bc39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prices'])[1]/preceding::span[3]</value>
-      <webElementGuid>d987f4cf-ae53-4ff1-8c50-abf603849de0</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Services']/parent::*</value>
-      <webElementGuid>8c0c3aaa-7b27-4c98-a472-396612f1bb77</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Print'])[1]/preceding::div[7]</value>
+      <webElementGuid>d7fdd8ff-58e9-4850-98d1-c87082622c9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//ul[3]/li/div/span/span</value>
-      <webElementGuid>7ad4fd25-52ed-4a85-af79-39eeaa631b81</webElementGuid>
+      <value>//div[3]/div/div/div[2]/div/div[2]</value>
+      <webElementGuid>fa77cba8-8f91-4714-9f2a-528cb1836bd9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Services' or . = 'Services')]</value>
-      <webElementGuid>8295e4a1-7b94-41b7-98e7-1dbce6c1c3a0</webElementGuid>
+      <value>//div[(text() = 'Amount2150.00' or . = 'Amount2150.00')]</value>
+      <webElementGuid>11bc3576-2e17-4c60-8ecf-3052b0379a80</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

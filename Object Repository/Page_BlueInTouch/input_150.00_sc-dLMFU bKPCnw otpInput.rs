@@ -6,15 +6,22 @@
    <elementGuidId>768b3496-a343-4744-8a12-309ab2c47edc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@value='1']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input.sc-dLMFU.bKPCnw.otpInput</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='4']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.sc-dLMFU >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>eeb155d4-1284-4b99-8f89-7e09796aa76b</webElementGuid>
+      <webElementGuid>1ec0225a-4f7b-4a55-8ab7-0b487a6b4a65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>62px</value>
-      <webElementGuid>cb75a909-8b12-47c0-a791-c6825da35789</webElementGuid>
+      <webElementGuid>8c6aa941-93c8-4491-87b2-2fff7917ae3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +45,7 @@
       <name>width</name>
       <type>Main</type>
       <value>45px</value>
-      <webElementGuid>4e9d6bba-4c2d-41e4-88a9-3ab702329bb6</webElementGuid>
+      <webElementGuid>ba0ed395-c793-4805-9f94-1329c8ea6673</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +53,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>e64258e1-8378-463d-b443-c9ce3da34a4d</webElementGuid>
+      <webElementGuid>5e4f7487-7e25-4195-9a9f-e9dfac05f522</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +61,15 @@
       <name>class</name>
       <type>Main</type>
       <value>sc-dLMFU bKPCnw otpInput</value>
-      <webElementGuid>0f3669ee-5ae3-400d-a9df-848b3a5d58f7</webElementGuid>
+      <webElementGuid>2943be5d-8f32-445b-b81d-1d4e7b5340fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>161d8da5-e247-4810-8f93-0e899a729dfc</webElementGuid>
+      <value>4</value>
+      <webElementGuid>ba3663d5-6897-484a-a7ec-557de057938c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,15 +77,63 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;fade modal show&quot;]/div[@class=&quot;modal-dialog modal-md modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;sc-ikkxIA bmfCoU&quot;]/div[@class=&quot;otpContainer mb-5&quot;]/div[@class=&quot;sc-eldPxv iYAhZo&quot;]/div[@class=&quot;sc-eDPEul bnqcXw otpInput&quot;]/input[@class=&quot;sc-dLMFU bKPCnw otpInput&quot;]</value>
-      <webElementGuid>c34a16dc-8687-40de-bf9e-463d91a64a22</webElementGuid>
+      <webElementGuid>a6ce9cb7-f1ad-423b-a09e-6b0c8fb864c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>859649fc-8aa5-4b93-b853-187271d32f43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>phoneNumber</value>
+      <webElementGuid>59d848fa-0d45-43fe-9373-ac35d8097bbe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter IUC Number</value>
+      <webElementGuid>c20bd14b-4900-429b-8e11-a6638feed94a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>aeb44005-9894-4a08-8b52-6bb40edd5978</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>10</value>
+      <webElementGuid>e0354ee3-69b2-451b-82f5-0e56b20ab86a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>5cc0c164-dd58-4304-89e7-88956e2eed8e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='1']</value>
-      <webElementGuid>591157d1-5acf-4fed-a02f-bcd165b1136d</webElementGuid>
+      <value>//input[@value='4']</value>
+      <webElementGuid>e4ed2afa-4615-444e-b95e-14ab62246121</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/input</value>
-      <webElementGuid>f2e6707a-54d9-4192-a051-b70edd774db9</webElementGuid>
+      <webElementGuid>40612a30-73b2-4e3f-9af3-c4b6d90f384d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +149,78 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>6b1dad8d-c500-4902-a202-13ec867f36b7</webElementGuid>
+      <webElementGuid>619e07c9-12da-4df5-993a-6d2d05a11448</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='phoneNumber']</value>
+      <webElementGuid>dfb549ff-3184-415b-affa-afcbb06664a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/main/section/div/section/section/div[2]/section/div/div/form/div/div/div/div[2]/div[6]/div/div/div/div/input</value>
+      <webElementGuid>8a6aa25c-9b67-4acc-a95d-c1f8430f14d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div/div/input</value>
+      <webElementGuid>33f4ad4f-4dcf-48df-9466-9aa99b3cb220</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'phoneNumber' and @type = 'text']</value>
+      <webElementGuid>86982ecd-a2fc-4ebd-9b7a-d98d2dcbbbca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='customerID']</value>
+      <webElementGuid>f8d34b6c-63bc-4a65-950e-0dd79c5c6603</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/main/section/div/section/section/div[2]/section/div/div/form/div/div/div/div[2]/div[2]/div/div/div/div/input</value>
+      <webElementGuid>efde3afd-063b-4811-8661-f617a09e41f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/input</value>
+      <webElementGuid>92c9d864-ef17-4be2-a869-fac663562516</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'customerID' and @placeholder = 'Enter IUC Number' and @type = 'text']</value>
+      <webElementGuid>9f36714f-f4d7-47aa-829d-9a2df8a27411</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='1']</value>
+      <webElementGuid>591157d1-5acf-4fed-a02f-bcd165b1136d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

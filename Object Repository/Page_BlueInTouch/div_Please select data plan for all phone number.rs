@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Services</name>
+   <name>div_Please select data plan for all phone number</name>
    <tag></tag>
-   <elementGuidId>d1dc9bca-4ad2-43f3-a99a-806f6a95dd4d</elementGuidId>
+   <elementGuidId>bc017c32-45c8-44da-bcb2-29c5d95a2257</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div.error</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='showSideMenu']/nav/ul[3]/li/div/span/span</value>
+         <value>//div[@id='root']/div[2]/main/section/div/section/div/div/form/div/div/div/div[2]/div[5]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Services&quot;s</value>
+         <value>internal:text=&quot;Please select data plan for all phone number&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,95 +28,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>95243ea3-4e80-4b04-bf57-612c754514ff</webElementGuid>
+      <value>div</value>
+      <webElementGuid>af42893a-db59-4f24-9567-cf6e1758d915</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>side-navigation-panel-select-option-text</value>
-      <webElementGuid>7257fbf7-b4be-4403-befa-1655491b0d4b</webElementGuid>
+      <value>error</value>
+      <webElementGuid>5e0dd289-1ce1-4964-b4af-e25b7e413351</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Services</value>
-      <webElementGuid>8fe1b010-c3bd-43b0-9080-c7caa01392d8</webElementGuid>
+      <value>Please select data plan for all phone number</value>
+      <webElementGuid>b9ce6fdd-4d23-49a7-8b6c-71205b8afb31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;showSideMenu&quot;)/nav[@class=&quot;side-navigation-panel&quot;]/ul[@class=&quot;side-navigation-panel-select&quot;]/li[@class=&quot;side-navigation-panel-select-wrap&quot;]/div[@class=&quot;side-navigation-panel-select-option&quot;]/span[@class=&quot;side-navigation-panel-select-option-wrap&quot;]/span[@class=&quot;side-navigation-panel-select-option-text&quot;]</value>
-      <webElementGuid>0c2428b3-6f2d-439c-a184-de402b09171f</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-JrDLc knFozZ&quot;]/main[1]/section[@class=&quot;dashboard__container scrollbar&quot;]/div[@class=&quot;data-wrapper&quot;]/section[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-8&quot;]/form[1]/div[@class=&quot;card-wrapper&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card-text&quot;]/div[@class=&quot;error&quot;]</value>
+      <webElementGuid>1c9ea967-3448-4124-bdce-b2857855a731</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='showSideMenu']/nav/ul[3]/li/div/span/span</value>
-      <webElementGuid>2852532e-7ff8-43c3-8e5f-d4c43c65ed6e</webElementGuid>
+      <value>//div[@id='root']/div[2]/main/section/div/section/div/div/form/div/div/div/div[2]/div[5]</value>
+      <webElementGuid>83f6c0dd-8277-45e2-8f18-caff0becb2d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bulk Service'])[1]/following::span[2]</value>
-      <webElementGuid>67a0daad-effc-4fd1-8cff-ec13f59e4c5b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Schedule for Later'])[1]/following::div[1]</value>
+      <webElementGuid>255a162a-ed57-47c6-935d-838f1377355a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::span[4]</value>
-      <webElementGuid>41a50fb4-23a7-4f7c-a010-f7af05a351b5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send Now'])[1]/following::div[3]</value>
+      <webElementGuid>f0def8ff-2e00-4c2a-90e2-472ce7a04491</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contacts'])[1]/preceding::span[1]</value>
-      <webElementGuid>43a50a85-d55f-4156-a566-7e67968eb0b0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Price'])[1]/preceding::div[2]</value>
+      <webElementGuid>88997bd3-6454-48a0-bb7c-26debb4e0057</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prices'])[1]/preceding::span[3]</value>
-      <webElementGuid>d987f4cf-ae53-4ff1-8c50-abf603849de0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₦0'])[1]/preceding::div[3]</value>
+      <webElementGuid>11f1cd5d-7662-4e6c-8d38-3a4374e38773</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Services']/parent::*</value>
-      <webElementGuid>8c0c3aaa-7b27-4c98-a472-396612f1bb77</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Please select data plan for all phone number']/parent::*</value>
+      <webElementGuid>7c5171c7-0c24-4ece-9752-6f76560452fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//ul[3]/li/div/span/span</value>
-      <webElementGuid>7ad4fd25-52ed-4a85-af79-39eeaa631b81</webElementGuid>
+      <value>//div[5]</value>
+      <webElementGuid>2423e0f8-88cd-4bb5-8886-95fbd00530ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Services' or . = 'Services')]</value>
-      <webElementGuid>8295e4a1-7b94-41b7-98e7-1dbce6c1c3a0</webElementGuid>
+      <value>//div[(text() = 'Please select data plan for all phone number' or . = 'Please select data plan for all phone number')]</value>
+      <webElementGuid>ea159c1a-ffe9-4dc4-84f2-eab3d396bde9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
