@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='₦100.00'])[2]/following::div[4]</value>
+         <value>//div[contains(text(),'View Receipt')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>6419407a-ca8c-46a5-8674-a275669bacf8</webElementGuid>
+      <webElementGuid>c4d1850e-ccfe-4ee8-91da-d84f763c00dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>View Receipt</value>
-      <webElementGuid>5cae6e72-1ada-4db8-a0f5-0bf36571b556</webElementGuid>
+      <webElementGuid>90d8f27b-3c8e-472c-8849-d25896445f8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;fade modal show&quot;]/div[@class=&quot;modal-dialog modal-md modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;success__group&quot;]/div[@class=&quot;opt&quot;]/div[2]</value>
-      <webElementGuid>f5962eff-bc39-41ce-9a74-9914cb08251d</webElementGuid>
+      <webElementGuid>a8ad0d9f-5951-4088-aa8a-7e9d9190ff7a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='₦100.00'])[2]/following::div[4]</value>
-      <webElementGuid>3fd8fd28-f2bc-418a-80f2-913756e7e864</webElementGuid>
+      <webElementGuid>182fafc5-ba51-4baf-8ead-4f9bf2176417</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='View Receipt']/parent::*</value>
-      <webElementGuid>1b935c15-5d71-435e-81ba-8ad87c1d5192</webElementGuid>
+      <webElementGuid>ffdc9098-8261-4f7e-b6a9-9fa5d9729143</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div[2]</value>
-      <webElementGuid>2b7ae7b7-4464-4adf-b980-4aa6c4e669b0</webElementGuid>
+      <webElementGuid>06ffa51c-1d49-40d9-9a65-e45f3741c386</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'View Receipt' or . = 'View Receipt')]</value>
-      <webElementGuid>978e668a-8213-4c40-a77e-27e5b76d8586</webElementGuid>
+      <webElementGuid>84a318ba-3ef6-4448-afe6-a2edd1a36764</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

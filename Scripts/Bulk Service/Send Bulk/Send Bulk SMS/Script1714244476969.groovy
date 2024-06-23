@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.util.*
-import java.io.File
+import java.io.File as File
 
 def filePath = 'Bulk Uploads/sms.csv'
 
-File file = new File(filePath);
+File file = new File(filePath)
 
 Random rand = new Random()
 
@@ -51,7 +51,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BlueInTouch/di
 
 WebUI.uploadFile(findTestObject('Page_BlueInTouch/upload_contact'), file.getAbsolutePath())
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BlueInTouch/span_100'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_BlueInTouch/upload_percent_complete'), 0)
 
 WebUI.click(findTestObject('Page_BlueInTouch/input_wrapper'))
 
@@ -104,7 +104,7 @@ try {
 
     WebUI.uploadFile(findTestObject('Page_BlueInTouch/upload_contact'), file.getAbsolutePath())
 
-    WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BlueInTouch/span_100'), 0)
+    WebUI.verifyElementPresent(findTestObject('Page_BlueInTouch/upload_percent_complete'), 0)
 
     WebUI.delay(5)
 

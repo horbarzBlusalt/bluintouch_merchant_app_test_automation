@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='uncontrolled-tab-example-tabpane-sms']/div/div/div/form/div[3]/div/div/div/div[2]/span/span/span/span[2]</value>
+         <value>//div[@id='uncontrolled-tab-example-tabpane-grouped']/div/div[2]/div[2]/div/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>08debb03-6acc-438a-9422-8a2157971c87</webElementGuid>
+      <webElementGuid>ca4e16ba-0894-4ce3-a3ce-18d67c59b365</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>100%</value>
-      <webElementGuid>599b9fd2-1dad-4583-94f7-6da320ba2122</webElementGuid>
+      <webElementGuid>99f95ab9-195f-4d2a-80fb-47dd1e32ed89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;uncontrolled-tab-example-tabpane-sms&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-9 col-md-8&quot;]/div[@class=&quot;campaign-wrapper&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;sc-cwHptR fQcyIM&quot;]/div[1]/div[@class=&quot;files&quot;]/span[@class=&quot;file&quot;]/span[1]/span[1]/span[2]</value>
-      <webElementGuid>94d78b33-0be0-4af9-982b-4376853d9970</webElementGuid>
+      <webElementGuid>8e6e8dab-17b7-4fbd-8e95-eb2cd84fa128</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='uncontrolled-tab-example-tabpane-sms']/div/div/div/form/div[3]/div/div/div/div[2]/span/span/span/span[2]</value>
-      <webElementGuid>274206c9-944f-4149-89e8-253a1253e787</webElementGuid>
+      <webElementGuid>4ff8dc33-78be-4b4e-b637-afc387147d61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add from Contact'])[1]/following::span[5]</value>
-      <webElementGuid>a78bb8b7-ab2a-439d-9b37-2128ef9622be</webElementGuid>
+      <webElementGuid>d06db67f-a153-49cb-9235-3b5d81de9416</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::span[2]</value>
-      <webElementGuid>314d8e21-26dc-417c-b1e2-1874cf97ad41</webElementGuid>
+      <webElementGuid>5e86b7ca-2520-417c-bde7-7343d5059a20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='100%']/parent::*</value>
-      <webElementGuid>de6e9e88-366e-4855-b435-f0a86f630a8f</webElementGuid>
+      <webElementGuid>73b54d78-0b2c-41b2-aecc-14cfd072ad2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/span/span/span[2]</value>
-      <webElementGuid>c7c87829-6723-4010-9a5b-fd16e3b866b4</webElementGuid>
+      <webElementGuid>d40011ff-f8b5-448d-8925-7f263e377f97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '100%' or . = '100%')]</value>
-      <webElementGuid>f8f9dd56-1742-4d2e-ae6e-8ca0965e32a3</webElementGuid>
+      <webElementGuid>7d6f41de-7b35-493a-a77c-88ae00201c0b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

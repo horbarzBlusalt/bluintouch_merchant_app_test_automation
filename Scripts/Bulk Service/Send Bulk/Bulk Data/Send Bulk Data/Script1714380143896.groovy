@@ -63,13 +63,12 @@ try {
 
     WebUI.refresh()
 
-	WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/a_Data'))
+    WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/a_Data'))
 
-    WebUI.setText(findTestObject('Page_BlueInTouch/input_Bulk Name_dataCampaignName'), 'Automated Bulk Data' + 
-        rand_number)
+    WebUI.setText(findTestObject('Page_BlueInTouch/input_Bulk Name_dataCampaignName'), 'Automated Bulk Data' + rand_number)
 
-	WebUI.callTestCase(findTestCase('Bulk Service/Send Bulk/Bulk Data/select_contact_populate_data'), null)
-	
+    WebUI.callTestCase(findTestCase('Bulk Service/Send Bulk/Bulk Data/select_contact_populate_data'), null)
+
     WebUI.switchToWindowIndex(bulkDataWindow + 1)
 
     WebUI.refresh()
@@ -94,7 +93,17 @@ catch (Exception e) {
 
 WebUI.click(findTestObject('Page_BlueInTouch/img_Fund Wallet_logo'))
 
-WebUI.verifyElementText(findTestObject('Page_BlueInTouch/div_completed'), 'Completed')
+String status = WebUI.getAttribute(findTestObject('Page_BlueInTouch/div_completed'), 'innerText')
+
+println(status)
+
+if (status.equals('Pending')) {
+    WebUI.refresh()
+
+    WebUI.verifyElementText(findTestObject('Page_BlueInTouch/div_completed'), 'Completed')
+} else {
+    WebUI.verifyElementText(findTestObject('Page_BlueInTouch/div_completed'), 'Completed')
+}
 
 WebUI.verifyElementPresent(findTestObject('Page_BlueInTouch/td_0'), 0)
 
@@ -102,7 +111,7 @@ WebUI.click(findTestObject('Page_BlueInTouch/span_Reports'))
 
 WebUI.click(findTestObject('Page_BlueInTouch/span_Transaction History'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_BlueInTouch/td_Data'), 'Data')
+WebUI.verifyElementText(findTestObject('Page_BluInTouch/history_category'), 'Data')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_BlueInTouch/td_Successful'), 'Successful')
 

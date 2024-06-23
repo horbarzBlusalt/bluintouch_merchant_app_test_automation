@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_SMS</name>
+   <tag></tag>
+   <elementGuidId>62ec922a-af91-4300-bc01-fda3e7eb28aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//tbody[1]/tr[1]/td[2])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>tr >> internal:has-text=&quot;Automated Test Bulk SMS 642SMS47 May, 2024 - 01:21pm&quot;i >> td >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>ca9d724e-e1a0-456c-af99-7a6a66897645</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SMS</value>
+      <webElementGuid>f79500cd-6077-4041-bb1b-038f1331fccf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;uncontrolled-tab-example-tabpane-grouped&quot;)/div[@class=&quot;overflow--initial&quot;]/div[@class=&quot;table-wrapper&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-striped table-hover&quot;]/tbody[@class=&quot;primary&quot;]/tr[1]/td[2]</value>
+      <webElementGuid>924b62d6-2098-4cee-9d00-8d339c3300a5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='uncontrolled-tab-example-tabpane-grouped']/div/div[2]/div/table/tbody/tr/td[2]</value>
+      <webElementGuid>0414f8ef-d54e-47aa-b6a6-c3753d7af707</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automated Test Bulk SMS 642'])[1]/following::td[1]</value>
+      <webElementGuid>247cc227-fb66-48d8-b06a-785261cc0413</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date Created'])[1]/following::td[2]</value>
+      <webElementGuid>b8ee92df-012d-4a8f-8085-5099b813dadc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automated Test Bulk SMS 775'])[1]/preceding::td[4]</value>
+      <webElementGuid>6436066f-77d2-4ea6-9d97-df13adbfccc5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SMS'])[3]/preceding::td[5]</value>
+      <webElementGuid>c88586e1-eed5-4514-ba51-a3a31ca58351</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]</value>
+      <webElementGuid>ebc4fb5c-f680-4d8e-a0d4-747966366fd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'SMS' or . = 'SMS')]</value>
+      <webElementGuid>bb5b1fb9-e5f0-4f1d-be2e-166102dd0794</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

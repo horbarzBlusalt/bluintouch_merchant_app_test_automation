@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Fund Wallet'])[4]/following::div[15]</value>
+         <value>//div[@class='header']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -15,6 +15,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>75efafd6-d0f8-451b-87ac-90b6e369ae5f</webElementGuid>
+      <webElementGuid>5e9f9cb6-b715-4bc5-a23b-ab74953f9962</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>header</value>
-      <webElementGuid>0895bf3b-d90b-49d1-b93b-5851ec42ebfb</webElementGuid>
+      <webElementGuid>dbd8ea8e-59c4-4510-a5ca-5d1b53b04bff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Bulk Data launched successfully</value>
-      <webElementGuid>6ba22a6e-4f28-4c75-a916-3f73f87a6952</webElementGuid>
+      <webElementGuid>c1aed1eb-caf0-4334-aedb-97521f25c503</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;fade modal show&quot;]/div[@class=&quot;modal-dialog modal-md modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;success__group&quot;]/div[@class=&quot;header&quot;]</value>
-      <webElementGuid>be019749-f300-4750-80e1-92dc989cf72e</webElementGuid>
+      <webElementGuid>8664dd6d-5b29-441e-ad06-30ee6d9a79bf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fund Wallet'])[4]/following::div[15]</value>
-      <webElementGuid>41028fcb-19c3-4130-8fe7-430e37f88fc2</webElementGuid>
+      <webElementGuid>f9de6e07-cf3a-4881-85e5-0d12bd21178a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='₦124,796.01'])[3]/following::div[18]</value>
-      <webElementGuid>769cfe89-62b9-47eb-9ec2-02ae77b8b725</webElementGuid>
+      <webElementGuid>b8b00638-411c-4baa-830f-3a781c12e193</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your bulk data is being processed'])[1]/preceding::div[1]</value>
-      <webElementGuid>c0ecae64-c505-4f98-8095-eae307206ce6</webElementGuid>
+      <webElementGuid>89e533e6-ad5d-4150-94ef-aae0eb6f6373</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Bulk Data launched successfully']/parent::*</value>
-      <webElementGuid>d5e0947c-2200-4574-8975-9941725a8704</webElementGuid>
+      <webElementGuid>9f19dbc5-a923-4b90-81ae-ec636d20d62f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div[2]/div/div[2]</value>
-      <webElementGuid>36a025f9-5133-4ce7-8a5a-287efe18f462</webElementGuid>
+      <webElementGuid>f7481486-051d-4c60-8377-f7802698b0c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Bulk Data launched successfully' or . = 'Bulk Data launched successfully')]</value>
-      <webElementGuid>e17501fc-8f21-48d2-bd18-88ab46504e49</webElementGuid>
+      <webElementGuid>32e08e90-eb97-4077-91a4-ec65d7290ca3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -74,7 +74,7 @@ try {
 
     WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/a_Airtime'))
 
-    WebUI.setText(findTestObject('Object Repository/Page_BlueInTouch/input_Bulk Name_campaignName'), 'Automated Bulk Airtime' + 
+    WebUI.setText(findTestObject('Object Repository/Page_BlueInTouch/input_Bulk Name_campaignName'), 'Automated Test Airtime' + 
         rand_number)
 
     WebUI.uploadFile(findTestObject('Page_BlueInTouch/upload_contact_airtime'), file.getAbsolutePath())
@@ -113,7 +113,13 @@ WebUI.click(findTestObject('Object Repository/Page_BlueInTouch/img_Fund Wallet_l
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BlueInTouch/div_completed'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_BlueInTouch/td_0'), '0')
+try {
+	WebUI.verifyElementText(findTestObject('Object Repository/Page_BlueInTouch/td_0'), '0')
+}catch(Exception e) {
+	WebUI.delay(1)
+	WebUI.refresh()
+	WebUI.verifyElementText(findTestObject('Object Repository/Page_BlueInTouch/td_0'), '0')
+}
 
 WebUI.scrollToElement(findTestObject('Object Repository/Page_BlueInTouch/span_Reports'), 0)
 

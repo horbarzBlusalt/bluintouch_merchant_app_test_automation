@@ -6,14 +6,15 @@
    <elementGuidId>54402a00-1e51-48d7-b31a-2d1f5c18faea</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(//tbody[1]/tr[1]/td[7])[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//tbody/tr[1]/td[7]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>403de2a4-2bd7-4590-b2b8-fff7d6acc331</webElementGuid>
+      <webElementGuid>6913e163-0e58-4c4b-b0e1-39ba4e749ee4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Airtime</value>
-      <webElementGuid>c03e0182-578c-497c-8fde-655dab70349b</webElementGuid>
+      <webElementGuid>070bec2e-f8e0-439b-9a2a-9f0687da29bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;sc-JrDLc knFozZ&quot;]/main[1]/section[@class=&quot;dashboard__container scrollbar&quot;]/div[@class=&quot;report-wrapper&quot;]/section[1]/div[@class=&quot;table-wrapper&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-striped table-hover&quot;]/tbody[@class=&quot;primary&quot;]/tr[1]/td[7]</value>
-      <webElementGuid>258f1f7f-2416-4ea3-8d88-440610b988d3</webElementGuid>
+      <webElementGuid>bce81779-d42e-4677-9631-c5aabd9a2bd8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -45,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[2]/main/section/div/section/div[2]/div/table/tbody/tr/td[7]</value>
-      <webElementGuid>9639c781-1227-4cff-8f4f-e9dbcb104eea</webElementGuid>
+      <webElementGuid>fc7762b7-8d0f-4276-b4ce-5ad10bf0367e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -53,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Successful'])[1]/following::td[1]</value>
-      <webElementGuid>c709002b-64aa-4aa9-9d7b-f9aa21c3f311</webElementGuid>
+      <webElementGuid>3c4deaf3-e4b0-45b9-8e96-82f5e878e742</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Wallet Credit'])[1]/following::td[2]</value>
-      <webElementGuid>bbbc3d8a-8f88-48c1-ac1d-274e465d5cd6</webElementGuid>
+      <webElementGuid>0d1937f3-4a00-441f-a9b4-5fa7c2a6fa79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='transaction-afc7ae96-c724-48e4-a4fb-9ab3f7d9cf38'])[1]/preceding::td[2]</value>
-      <webElementGuid>630f13bd-d947-4ede-a1d7-2013407218dc</webElementGuid>
+      <webElementGuid>818a1586-3129-4ab8-9585-c0d755e8cdc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NGN 150.00'])[2]/preceding::td[3]</value>
-      <webElementGuid>524d726f-22fe-4a7a-b7d1-0ba0e0ee8a7c</webElementGuid>
+      <webElementGuid>6d57cdce-335e-4ff6-b421-1defba2b8024</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Airtime']/parent::*</value>
-      <webElementGuid>f7356c92-3d07-4e52-b939-9a22955424b1</webElementGuid>
+      <webElementGuid>abd019c7-1bfb-4975-8740-ba08d3f1add2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[7]</value>
-      <webElementGuid>3a282045-31fc-421e-9f26-fc929718302b</webElementGuid>
+      <webElementGuid>8106d0b4-943a-4c9e-ad9b-287418c0e875</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Airtime' or . = 'Airtime')]</value>
-      <webElementGuid>2f5efd59-af19-4517-9244-b0799396f51d</webElementGuid>
+      <webElementGuid>1f23d617-a3c5-4d79-a735-b1db0973fe2a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
